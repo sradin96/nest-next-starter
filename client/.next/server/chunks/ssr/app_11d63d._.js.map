@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/stefan/next-starter/app/components/containers/Counter/Counter.tsx"],"sourcesContent":["'use client';\nimport { useCounterStore } from '@/app/providers/counter-store-provider';\n\nexport const Counter = () => {\n  const { count, incrementCount, decrementCount } = useCounterStore(\n    (state) => state\n  );\n\n  return (\n    <div>\n      Count: {count}\n      <hr />\n      <button type='button' onClick={incrementCount}>\n        Increment Count\n      </button>\n      <button type='button' onClick={decrementCount}>\n        Decrement Count\n      </button>\n    </div>\n  );\n};\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGO,MAAM,UAAU;IACrB,MAAM,EAAE,KAAK,EAAE,cAAc,EAAE,cAAc,EAAE,GAAG,CAAA,GAAA,iJAAA,CAAA,kBAAe,AAAD,EAC9D,CAAC,QAAU;IAGb,qBACE,8OAAC;;YAAI;YACK;0BACR,8OAAC;;;;;0BACD,8OAAC;gBAAO,MAAK;gBAAS,SAAS;0BAAgB;;;;;;0BAG/C,8OAAC;gBAAO,MAAK;gBAAS,SAAS;0BAAgB;;;;;;;;;;;;AAKrD"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
